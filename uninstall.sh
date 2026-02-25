@@ -6,7 +6,7 @@ source src/vars.sh
 source src/util.sh
 
 echo "-- uninstalling packages"
-uninstall_packages $package_list
+uninstall_packages $zsh_packages
 
 echo "-- removing $p10k_dir"
 delete_directory "$p10k_dir"

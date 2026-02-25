@@ -27,11 +27,11 @@ validate_relative_path() {
 }
 
 install_packages() {
-  require_success sudo pacman -Syu $@ --noconfirm
+  require_success sudo pacman -Syu --noconfirm $@
 }
 
 uninstall_packages() {
-  require_success sudo pacman -R $@ --noconfirm
+  require_success sudo pacman -R --noconfirm $@
 }
 
 create_directory() {
