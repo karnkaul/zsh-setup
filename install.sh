@@ -6,7 +6,7 @@ source src/vars.sh
 source src/util.sh
 
 echo "-- installing packages"
-install_packages $package_list
+install_packages $package_list $font_package
 
 echo "-- cloning powerlevel10k to $p10k_dir"
 create_directory "$zsh_themes_dir"

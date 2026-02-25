@@ -10,6 +10,8 @@ package_list="\
   zsh-syntax-highlighting\
 "
 
+font_package=ttf-hack-nerd
+
 p10k_repo_name=powerlevel10k
 p10k_repo_url=https://github.com/romkatv/$p10k_repo_name
 
