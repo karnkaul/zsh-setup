@@ -11,7 +11,6 @@ uninstall_packages $zsh_packages
 echo "-- removing $p10k_dir"
 delete_directory "$p10k_dir"
 
-
 echo "== done"
 
 exit
