@@ -52,6 +52,14 @@ copy_file() {
   require_success cp "$1" "$2"
 }
 
+backup_file() {
+  validate_relative_path "$1"
+  [[ ! -f "$1" ]] && return
+  backup_path="$1.bak"
+  [[ -f "$backup_path" ]] && require_success rm "$backup_path"
+  require_success cp "$1" "$backup_path"
+}
+
 clone_repo() {
   require_success git clone $@
 }
