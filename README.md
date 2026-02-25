@@ -30,7 +30,11 @@ This will install `zsh`, several plugins, clone the [`powerlevel10k`](https://gi
 
 After installation, run `zsh` to configure the theme. Run `p10k configure` anytime to configure it again.
 
-If the icons don't render, change the font used by the shell to `Hack Nerd Font Mono`.
+<img width="752" height="291" alt="Screenshot_20260225_095123" src="https://github.com/user-attachments/assets/022ebd1d-db03-478f-9102-9acc6c02f255" />
+
+If the icons don't render, change the font used by the terminal to `Hack Nerd Font Mono`.
+
+To use `zsh` as the default shell, run `chsh` and enter `/usr/bin/zsh` as the path to the new shell. Or configure your desired terminal to use `zsh`.
 
 ### Uninstallation
 
@@ -40,7 +44,7 @@ Assuming the cloned-repo is in `./zsh-setup`, execute:
 zsh_setup/uninstall.sh
 ```
 
-This will uninstall `zsh` and its plugins and delete the theme from `$XDG_DATA_DIR`. It intentionally **does not** uninstall `ttf-hack-nerd`, as it may be being used by the shell. To uninstall it manually, first make sure the shell is using a different font, then run:
+This will uninstall `zsh` and its plugins and delete the theme from `$XDG_DATA_DIR`. It intentionally **does not** uninstall `ttf-hack-nerd`, as it may be being used by the terminal. To uninstall it manually, first make sure all terminals/configs are using a different font, then run:
 
 ```
 sudo pacman -R ttf-hack-nerd
