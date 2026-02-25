@@ -15,7 +15,7 @@ clone_repo $p10k_repo_url "$p10k_dir" --depth=1
 
 echo "-- generating $zshrc_path"
 copy_file src/zshrc.in.zsh "$zshrc_path"
-require_success sed -i s:SETUP_ZSH_THEME_SCRIPT:$p10k_theme: "$zshrc_path"
+require_success sed -i s:SETUP_ZSH_THEME_SCRIPT:"$p10k_theme": "$zshrc_path"
 
 echo "== done"
 
