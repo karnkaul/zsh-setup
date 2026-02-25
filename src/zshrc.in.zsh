@@ -95,7 +95,7 @@ eval "$(dircolors -b)"
 alias ls='ls $LS_OPTIONS'
 
 # Apply theme
-source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
+source SETUP_ZSH_P10K_THEME_DIR/powerlevel10k.zsh-theme
 # Use autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
