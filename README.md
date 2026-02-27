@@ -38,7 +38,7 @@ This should trigger the theme configuration menu. Run `p10k configure` anytime t
 
 <img width="752" height="291" alt="Screenshot_20260225_095123" src="https://github.com/user-attachments/assets/022ebd1d-db03-478f-9102-9acc6c02f255" />
 
-If the icons don't render, change the font-family used by the terminal to `Hack Nerd Font Mono`.
+If the icons don't render, change the font-family used by the terminal to `Hack Nerd Font Mono`. (The terminal might need to be restarted after font installation.)
 
 To use `zsh` as the default shell, run:
 
