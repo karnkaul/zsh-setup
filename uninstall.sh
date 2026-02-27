@@ -2,6 +2,8 @@
 
 [[ $UID == 0 ]] && { echo "don't run as root"; exit 1; }
 
+cd $(dirname "$0")
+
 source src/vars.sh
 source src/util.sh
 
