@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tool_version=1.3
+tool_version=1.4
 
 zsh_packages="\
   zsh\
